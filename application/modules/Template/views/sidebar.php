@@ -13,10 +13,16 @@
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
-    <li class="nav-item" id="sidebar_todo">
-      <a class="nav-link" href="<?php echo base_url('/todo') ?>">
+    <li class="nav-item" id="sidebar_company">
+      <a class="nav-link" href="<?php echo base_url('/company') ?>">
         <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Todo</span></a>
+        <span>Company</span></a>
+    </li>
+
+    <li class="nav-item" id="sidebar_project">
+      <a class="nav-link" href="<?php echo base_url('/project') ?>">
+        <i class="fas fa-fw fa-tachometer-alt"></i>
+        <span>Project</span></a>
     </li>
 
     <!-- Divider -->
@@ -84,12 +90,12 @@
     </li>  -->
 
     <!-- Nav Item - Charts -->
-    <li class="nav-item" id="sidebar_profile">
+    <!-- <li class="nav-item" id="sidebar_profile">
         <a class="nav-link" href="<?php echo base_url('/profile') ?>">
             <i class="fas fa-fw fa-user"></i>
             <span>Profile</span>
         </a>
-    </li>
+    </li> -->
 
     <!-- Divider -->
     <hr class="sidebar-divider">
